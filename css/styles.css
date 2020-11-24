@@ -42,7 +42,6 @@ ul {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
 }
 
 .nav-list-link,
@@ -162,20 +161,25 @@ ul {
 
 /* ==========Footer========== */
 
+.footer {
+  background: #2f303a;
+}
+
 .footer-maps {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
-.footer-link {
+.footer-link,
+.footer-tel {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ==========End Footer========== */
